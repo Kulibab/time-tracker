@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
+import AddTrack from "../AddTrack/AddTrack";
 
 import c from './App.module.css';
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <h1 className={c.title}>My React App!</h1>
-            </div>
-        );
-    }
+const App = () => {
+  return (
+    <div className={c.container}>
+      <h1 className={c.title}>tracker</h1>
+      <AddTrack />
+    </div>
+  );
 }
 
 export default App;

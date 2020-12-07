@@ -2,3 +2,10 @@
   color: #27aedb;
   text-align: center;
 }
+
+.container {
+  width: 100%;
+  max-width: 560px;
+  padding: 10px;
+  margin: 0 auto;
+}
